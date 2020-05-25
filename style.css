@@ -1,0 +1,500 @@
+p {
+  margin-bottom: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Poppins', sans-serif;
+  color:  #222;
+  letter-spacing: 0.46px;
+  margin-bottom: 0;
+  text-transform:   capitalize; 
+}
+h2{
+  font-size:  42px;
+  font-weight: bold;
+}
+h3{
+  font-size:  41px;
+}
+h4{
+  font-size:  41px;
+}
+
+
+
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+                    /*HEADER*/
+
+ul.navbar-nav{
+  align-items: center;
+}
+.formulario-superior{
+  display: flex;
+  justify-content: center;
+}
+.logo-superior{
+  justify-content: center;
+  display: flex;
+}
+.fixed{
+  position: fixed;
+  z-index: 20;
+
+  top: 0;
+  
+
+}
+.menunav {
+  padding: 0; 
+}
+.navbar{
+  padding-right: 0!important;
+  padding-left: 0!important;
+}
+.navbar .logo-empresa{
+  width: 100px;
+}
+                    /*PARTE TITULO*/
+.parte-titulo{
+  height: 500px;
+  display: flex;
+  justify-content: center;
+
+  background-image: url('img/Grupo 2258.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.parte-titulo .conteudo-parte-titulo{
+  text-align: center;
+}
+.parte-titulo .conteudo-pt-imagem{
+  position: absolute;
+  bottom: 0;
+}
+.parte-titulo .conteudo-pt-imagem img{
+  width: 570px;
+  z-index: 2;
+  position: relative;
+  padding-bottom: 30px;
+}
+.parte-titulo .conteudo-img-bottom{
+  bottom: 0;
+  position: absolute;
+}
+.parte-titulo .conteudo-img-bottom .img-bottom{
+  width: 100%;
+}
+
+                    /*PROCESSO*/
+
+.linha-oprocesso .esquerda{
+
+  display: grid;
+  align-content: center;
+}
+.linha-oprocesso .direita{
+
+  height: 100%;
+  display: flex;
+  justify-content: center;  
+}
+.linha-oprocesso .direita .img-direita{
+  height: 100%;
+}
+.linha-oprocesso .esquerda .img-btn{
+  width: 100px;
+}
+.conteudo-linha-processo{
+  height: 100%;
+  display: flex;
+  width: 800px;
+  padding-top: 135px;
+  padding-bottom: 25px;
+}
+.linha-oprocesso .img-btn{
+  margin-left: 0;
+}
+
+
+
+                    /*ESTAMOS AQUI*/
+
+
+.linha-estamos-aqui .esquerda{
+
+  display: flex;
+  justify-content: center;
+  height: 100%
+
+}
+.linha-estamos-aqui .esquerda .img-esquerda{
+  height: 100%;
+}
+
+.linha-estamos-aqui .direita{
+
+    display: grid;
+  align-content: center;
+}
+.conteudo-linha-estamos-aqui{
+  height: 100%;
+  display: flex;
+  width: 800px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+                                /*formulario*/
+.linha-formulario{
+  background: #ebf5ff;
+
+
+
+  height: 100%;
+}
+.linha-formulario  form{
+  width: 600px;
+  background: #fff;
+
+}
+.linha-formulario .formulario{
+  display: grid;
+  justify-content: center;
+}
+
+.linha-formulario .homem-planta{
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  left: 10px;
+
+}
+.linha-formulario .homem-puf{
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  right: 98px;
+
+}
+.linha-formulario .mulher-depe{
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  right: 0px;
+
+}
+.linha-formulario .aviao{
+  position: absolute;
+  bottom: 371px;
+  z-index: 1;
+  right: 91px;
+
+}
+.linha-formulario .linha{
+  position: absolute;
+  bottom: 238px;
+  z-index: -1;
+  right: 135px;
+
+}
+
+
+.linha-formulario .formulario .formulario-titulo{
+  text-align: center;
+}
+.linha-formulario .formulario .coluna-formulario{
+  text-align: center;
+  background-image: url('img/Grupo 2186 (3).svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  z-index: 1;
+
+}
+.linha-formulario .formulario .coluna-formulario img{
+  width: 70%;
+}
+                            /*MENU INFERIOR*/
+.linha-menu{
+  /*
+  height: 250px;
+  */
+  height: auto;
+
+}
+.linha-menu .col-contato .item{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.linha-menu ul li{
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+.linha-menu-logo h1{
+  text-align: center;
+}
+.linha-menu-logo .logo {
+  text-align: center;
+  padding-bottom: 70px;
+  padding-top: 70px;
+
+}
+.linha-menu-logo .logo .img-logo{
+  width: 200px;
+}
+
+.linha-menu .col-contato .icone-telefone, 
+.linha-menu .col-contato .site, 
+.linha-menu .col-contato .email{
+  float: left;
+}
+.linha-menu .siga-nos ul {
+  padding:0; 
+}
+.linha-menu .siga-nos ul li{
+  display: inline-block;
+  padding-right: 30px;
+}
+.linha-menu .siga-nos .circulo{
+  position: absolute;
+  z-index: -1;
+}
+.icon-social{
+
+  margin-left: 11px;
+  margin-top: 9px;
+}
+.icon-social-face{
+
+  margin-left: 16px;
+  margin-top: 9px;
+}
+header form input.form-control{
+  position: absolute;
+  z-index: -1;
+}
+
+.form-inline p{
+  margin:0;
+}
+.btn{
+  margin-left: 15px;
+}
+.btn p{
+  color: #fff;
+  font-style: SemiBold;
+  font-size: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+
+
+.parte-titulo .btn p{
+  margin-bottom: 0;
+}
+.parte-titulo .btn-direita.btn{
+  background: #fff;
+  border: 1px solid #846bd9;
+}
+.parte-titulo .btn-direita.btn p{
+  color: #846bd9;
+}
+                              /*LINHA-RODAPE*/
+.cont-rodape{
+  position: relative;
+
+}
+                              
+.cont-rodape .img-bottom-rodape{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.cont-rodape .linha-rodape{
+  height: 250px;
+  background-image: url('img/Grupo 2255 (1).svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: 2;
+  position: relative;
+
+
+
+}
+.cont-rodape .linha-rodape .img1,
+.cont-rodape .linha-rodape .img3{
+  bottom: 0;
+  position: absolute;
+}
+.homem-planta img{
+  width: 30px;
+}
+                                /*CELULAR*/
+@media screen and (min-width: 1200px) {
+    .linha-menu-superior{
+    display: none;
+  }
+}  
+@media screen and (max-width: 1200px) {
+.linha-menu .siga-nos ul li{
+  padding-right: 20px;
+}
+
+/* PARA BAIXO TIRA PADDING */
+
+@media screen and (min-width: 992px)   {
+  .linha-menu-superior{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .form-inline, .nav-bar-logo, .btn-navbar, .nav-logo-empresa {
+    display: none;
+
+  }
+  .linha-menu .siga-nos ul li{
+    padding-top: 15px;
+  }
+    .cont-rodape .linha-rodape .img1, 
+    .cont-rodape .linha-rodape .img3{
+    width: 220px;
+  }
+  .cont-rodape .linha-rodape .img2{
+    position: absolute;
+    bottom: 60px;
+  }
+}
+/*formulario*/
+.linha-formulario .homem-planta{
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  left: -47px;
+  
+
+}
+
+.linha-formulario .homem-puf{
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  right: 37px;
+
+}
+.linha-formulario .mulher-depe{
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  right: -28px;
+
+}
+.linha-formulario .aviao{
+  position: absolute;
+  bottom: 287px;
+  z-index: 1;
+  right: 36px;
+
+}
+.linha-formulario .linha{
+  position: absolute;
+  bottom: 178px;
+  z-index: -1;
+  right: 51px;
+
+}
+.img-formulario {
+  
+}
+.img-formulario .c-img-formulario{
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+  h2{
+  font-size:  29px;
+  font-weight: bold;
+    }
+  h3{
+    font-size:  28px;
+  }
+  h4{
+    font-size: 28px;
+  }
+
+
+  .cont-rodape .linha-rodape{
+    height: 180px;
+  }
+  .cont-rodape .linha-rodape .img1, 
+    .cont-rodape .linha-rodape .img3{
+    width: 150px;
+}
+.linha-menu .siga-nos ul li{
+  padding-right: 20px;
+}
+.linha-formulario .formulario .coluna-formulario img{
+  width: 100%;
+}
+
+/*formulario*/
+.img-formulario{
+  display: flex;
+}
+.linha-formulario .homem-planta{
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  left: -71px;
+  width: 158px;
+  
+
+}
+
+.linha-formulario .homem-puf{
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  right: -11px;
+  width: 99px;
+
+}
+.linha-formulario .mulher-depe, 
+.linha-formulario .aviao,
+.linha-formulario .linha{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+.linha-formulario .homem-planta, .linha-formulario .homem-puf{
+  display: none;
+}
+
+
+/*max largura 576*/
+@media screen and (max-width: 576px) {
+ .linha-menu .col-endereco, 
+ .linha-menu .col-contatos, 
+ .linha-menu .col-nossa-companhia{
+  margin-top: 20px;
+ }
+  h2{
+  font-size:  20px;
+  font-weight: bold;
+    }
+  h3{
+    font-size:  20px;
+  }
+  h4{
+    font-size: 20px;
+  }
+}
